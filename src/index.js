@@ -1,5 +1,3 @@
-console.log('AM i running correctly?');
-
 const mapboxgl = require("mapbox-gl");
 const buildMarker = require("./marker");
 

@@ -6,7 +6,7 @@ function buildMarker(type,coords){
   mark.style.width = "32px";
   mark.style.height = "39px";
 
-  switch(type){
+  switch (type){
     default:
     case "activity":
       mark.style.backgroundImage = "url(http://i.imgur.com/WbMOfMl.png)"
@@ -19,7 +19,7 @@ function buildMarker(type,coords){
   }
 
   const marker = new mapboxgl.Marker({
-    element:mark
+    element: mark
   }).setLngLat(coords)
   return marker
 }
